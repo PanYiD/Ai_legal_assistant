@@ -1,0 +1,48 @@
+# ---- Python 缓存/编译文件 ----
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# ---- 虚拟环境 ----
+.venv/
+venv/
+env/
+ENV/
+
+# ---- IDE/编辑器配置 ----
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---- 日志 & 临时文件 ----
+*.log
+*.tmp
+*.out
+
+# ---- Jupyter/Notebook ----
+.ipynb_checkpoints/
+
+# ---- 数据/索引/模型 ----
+# （避免推送大文件和敏感数据）
+data/
+chroma_db/
+storage/
+*.bin
+*.pt
+*.ckpt
+*.onnx
+*.h5
+
+# ---- Streamlit 缓存 ----
+.streamlit/
+.cache/
+
+# ---- 操作系统生成文件 ----
+.DS_Store
+Thumbs.db
+
+# ---- Git 忽略文件 ----
+.gitignore
