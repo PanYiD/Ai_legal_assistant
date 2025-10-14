@@ -4,6 +4,7 @@ An AI-powered **legal assistant** built with **LlamaIndex + Local LLMs**, levera
 
 ## 📌 Features
 - Uses **ChromaDB** as the vector database.
+- The web page automatically crawls the relevant legal provisions and saves them locally
 - Loads **JSON-formatted legal documents** from local storage.
 - Builds and persists vector indexes for efficient retrieval.
 - Includes a **ChatML-style prompt template** to ensure answers strictly follow legal provisions.
